@@ -1,6 +1,6 @@
 body {
-	background-color: #ffffff;
-	color: #333;
+	background-color: rgb(255, 255, 255);
+	color: #000000;
 	transition: all 0.5s;
   }
   
@@ -11,44 +11,46 @@ body {
   }
   
   .nav-link {
-	color: #333;
+	color: #000000;
   }
   
   .nav-link:hover {
 	color: #000;
   }
   
-  .btn-outline-light {
-	color: #f9f9f9;
-	border-color: #f9f9f9;
+  .btn btn-outline-dark {
+	color: #000000;
+	border-color: #000000;
   }
   
-  .btn-outline-light:hover {
-	color: #333;
-	background-color: #f9f9f9;
-	border-color: #f9f9f9;
+  .btn-outline:hover {
+	color: #000000;
+	background-color: #ffffff;
+	border-color: #000000;
   }
   
   .card {
 	background-color: #fff;
-	color: #333;
+	color: #000000;
 	transition: all 0.5s;
   font-family: 'Roboto Mono', monospace;
+  box-shadow: 3px 3px #000000;
+  border-radius: 30px;
   }
   
   .card-title {
-	color: #333;
+	color: #000000;
   font-family: 'Roboto Mono', monospace;
   }
   
   .card-text {
-	color: #666;
+	color: #000000;
   font-family: 'Roboto Mono', monospace;
   }
   
   .btn-primary {
-	background-color: #333;
-	border-color: #333;
+	background-color: #000000;
+	border-color: #000000;
   font-family: 'Roboto Mono', monospace;
   }
   
@@ -67,7 +69,7 @@ body {
   
   .animated-words {
     font-family: 'Roboto Mono', monospace;
-    font-size: 14px;
+    font-size: 15px;
     color: #000000;
   }
   
