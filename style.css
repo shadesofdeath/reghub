@@ -103,6 +103,14 @@ body {
   .animated-words span:nth-child(6) {
     animation-delay: 1s;
   }
+
+  .animated-words span:nth-child(7) {
+    animation-delay: 1.2s;
+  }
+
+  .animated-words span:nth-child(8) {
+    animation-delay: 1.4s;
+  }
   
   @keyframes animateWords {
     0% {
