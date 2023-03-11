@@ -6,52 +6,94 @@ body {
   
   .navbar {
 	background-color: #f9f9f9;
-	transition: all 0.5s;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Nunito', sans-serif;
+  flex-wrap: wrap;
+  background-color: transparent;
+  display: flex;
+  color: #000000;
+  font-family: 'Nunito', sans-serif;
+  cursor: pointer;
+  position: fixed;
   }
   
+  .navbar-brand {
+    flex-wrap: wrap;
+    background-color: transparent;
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+  }
   .nav-link {
 	color: #000000;
+  flex-wrap: wrap;
   }
   
   .nav-link:hover {
 	color: #000;
+  flex-wrap: wrap;
   }
   
   .btn btn-outline-dark {
 	color: #000000;
 	border-color: #000000;
+  flex-wrap: wrap;
   }
   
   .btn-outline:hover {
 	color: #000000;
 	background-color: #ffffff;
 	border-color: #000000;
+  flex-wrap: wrap;
   }
   
+.btn{
+  transition: 0.8s;
+  text-align: center;
+  flex-wrap: wrap;
+  border-radius: 28px;
+  border-style: solid;
+  font-size: 14px;
+  position: sticky;
+  align-items: center;
+  justify-content: center;
+  display:flex;/* add display flex */
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Nunito', sans-serif;
+  cursor: pointer;
+  margin: auto;
+  height: 38px;
+  width: 170px;
+  box-shadow: 3px 3px #000000;
+}
+
   .card {
 	background-color: #fff;
+  align-items: center;
+  text-align: center;
 	color: #000000;
 	transition: all 0.5s;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Nunito', sans-serif;
   box-shadow: 3px 3px #000000;
   border-radius: 28px;
+  flex-wrap: wrap;
+  font-size: 18px;
   }
   
   .card-title {
 	color: #000000;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Nunito', sans-serif;
   }
   
   .card-text {
 	color: #000000;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Nunito', sans-serif;
   }
   
   .btn-primary {
 	background-color: #000000;
 	border-color: #000000;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Nunito', sans-serif;
   }
   
   .btn-primary:hover {
@@ -68,7 +110,7 @@ body {
   }
   
   .animated-words {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Nunito', sans-serif;
     font-size: 15px;
     color: #000000;
   }
@@ -135,7 +177,7 @@ body {
   
   h3 {
     font-size: 25px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
     position: relative;
     text-align: center;
@@ -165,7 +207,7 @@ body {
   }
   
   .animated-words-2 {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Nunito', sans-serif;
     font-size: 25px;
     color: #000000;
   }
@@ -224,7 +266,7 @@ body {
   
   h3 {
     font-size: 25px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
     position: relative;
     text-align: center;
@@ -247,5 +289,6 @@ body {
   
   #baslik{
     font-family: 'Shantell Sans', cursive;
+    letter-spacing: 4px;
   }
   
