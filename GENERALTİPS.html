@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	RegHub
+	<!-- Bootstrap CSS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&family=Varela+Round&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />	<!-- Kendi CSS dosyalarımız -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="dark-mode.css" id="dark-mode">
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar bg-white fixed-top">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#">RegHub<i class="ri-tools-line"></i></a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+			<div class="offcanvas-header">
+			  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">RegHub Categories<i class="ri-tools-line"></i></h5>
+			  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+			  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Appearance <i class="ri-pantone-line"></i></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Context Menu <i class="ri-menu-2-line"></i></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Features <i class="ri-home-gear-line"></i></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">File Explorer <i class="ri-window-line"></i></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Gaming <i class="ri-gamepad-line"></i></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Miscellaneous <i class="ri-settings-3-line"></i></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Power <i class="ri-shut-down-line"></i></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">PowerShell & Command Prompt <i class="ri-terminal-box-line"></i></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Settings & Control Panel <i class="ri-settings-line"></i></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Start Menu & Taskbar <i class="ri-star-line"></i></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Startup & Shut Down <i class="ri-refresh-line"></i></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Users - Accounts <i class="ri-account-circle-line"></i></a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Windows <i class="ri-microsoft-line"></i>
+				  </a>
+				  <ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="#">Only Windows 11 <i class="ri-microsoft-line"></i></a></li>
+					<li><a class="dropdown-item" href="#">Only Windows 10 <i class="ri-windows-line"></i></a></li>
+					<li>
+					</li>
+				  </ul>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+	  </nav>
+	  <br>
+	  <br>
+	  <br>
+	  <div class="loading-text-2">
+		<h5 class="animated-words-2">
+		  <span id="baslik">FEATURES <i class="ri-home-gear-line"></i></span>
+		</h5>
+	  </div>	
+	<!-- Ana İçerik -->
+	<div class="container my-5">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">Clear and Reset Thumbnail Cache in Windows 10/11</h5>
+						<p class="card-text">Windows keeps a copy of all your picture, video, and document thumbnails in a cache so they can be reused to quickly display when you open a folder instead of having to manually scan and slowly load them each time.The thumbnail cache can sometimes become corrupted causing thumbnails to display incorrectly or distorted. When this happens, the thumbnail cache needs to be deleted to reset it and automatically recreate as needed.</p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">name</h5>
+						<p class="card-text">detail </p>
+						<a href="LINK" class="btn btn-outline-dark">Download <i class="ri-download-line"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap JavaScript ve jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- Kendi JavaScript dosyalarımız -->
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
